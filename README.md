@@ -7,11 +7,13 @@ A normal calculator allows operations over numbers having a limited range. It
 would use the basic data types such as int, float, etc. The maximum size varies
 depending on the machine in use, but what if we wish to expand these boundaries
 and look calculations beyond these traditional sizes? 
-BC to the rescue!
+BC to the rescue!  
+
 It allows us to perform basic operations over numbers of infinite lengths.
 It uses doubly linked lists to store each digit of the number at a node. The
 program takes the input for the equation in the form fo a string. The string is
-processed iteratively until we encounter an end of string character. 
+processed iteratively until we encounter an end of string character.  
+
 One major drawback of the technique that I have employed in this project would
 be the issue caused by operator precedence. The program looks for numeric
 characters and a token denoting the operation ot be performed, performs the
