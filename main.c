@@ -6,7 +6,6 @@ int main(){
 
     dll i1 = NULL, i2 = NULL, result = NULL, f1 = NULL, f2 = NULL;
     char string[300], token, *str;
-    printf("\n");
     printf("bc\n");
 
     start:
@@ -62,7 +61,6 @@ int main(){
             }
 
         }
-        printf("\n");
         traverse(result);
         printf("\n");
         i1 = NULL;
